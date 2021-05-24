@@ -15,6 +15,7 @@ cloutreactor is an *experimental* BitClout miner and PPLNS pool.
 ### Miner
 - NVIDIA CUDA 11 is currently supported
   - OpenCL support coming soon
+  - GTX 10 series and Higher are supported
 
 ## Running the Miner
 
@@ -56,7 +57,7 @@ cloutreactor is an *experimental* BitClout miner and PPLNS pool.
 
 1) Install [CUDA 11.2](https://docs.nvidia.com/cuda/cuda-installation-guide-microsoft-windows/index.html) for your platform
 
-2) Download the [latest release](https://github.com/cloutreactor/release/releases)
+2) Download the [latest release .exe file](https://github.com/cloutreactor/release/releases)
 
 3) At a command prompt, run the server binary:
 
