@@ -15,7 +15,7 @@ cloutreactor is an *experimental* BitClout miner and PPLNS pool.
 ### Miner
 - NVIDIA CUDA 11 is currently supported
   - OpenCL support coming soon
-  - GTX 10 series and Higher are supported
+  - GTX 10XX (Pascal) series and higher are supported
 
 ## Running the Miner
 
