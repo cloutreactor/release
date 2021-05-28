@@ -27,14 +27,14 @@ cloutreactor is an *experimental* BitClout miner and PPLNS pool.
 
   2) Install the [NVIDIA Container Toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) for your platform
 
-  3) At a command prompt, run cloutreactor with all GPUs (replace the given public key with your own):
+  3) At a command prompt, run cloutreactor with all GPUs (**replace the given public key with your own**):
 
   ```Shell
 # Run in-process:
-  sudo docker run --rm --name cloutreactor --gpus all --runtime nvidia cloutreactor/cuda:v0.0.2 --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
+  sudo docker run --rm --name cloutreactor --gpus all --runtime nvidia cloutreactor/cuda:v0.0.3 --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
 
 # Or as a daemon:
-  sudo docker run --rm -d --name cloutreactor --gpus all --runtime nvidia cloutreactor/cuda:v0.0.2 --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
+  sudo docker run --rm -d --name cloutreactor --gpus all --runtime nvidia cloutreactor/cuda:v0.0.3 --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
   sudo docker logs -f cloutreactor
   ```
 
@@ -44,7 +44,7 @@ cloutreactor is an *experimental* BitClout miner and PPLNS pool.
 
 2) Download the [latest release](https://github.com/cloutreactor/release/releases)
 
-3) At a command prompt, run the server binary (replace the given public key with your own):
+3) At a command prompt, run the server binary (**replace the given public key with your own**):
 
 ```Shell
 ./cloutreactor-linux-amd64 --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
@@ -59,7 +59,7 @@ cloutreactor is an *experimental* BitClout miner and PPLNS pool.
 
 2) Download the [latest release .exe file](https://github.com/cloutreactor/release/releases)
 
-3) At a command prompt, run the server binary (replace the given public key with your own):
+3) At a command prompt, run the server binary (**replace the given public key with your own**):
 
 ```Shell
 ./cloutreactor-windows-amd64.exe --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
@@ -79,10 +79,10 @@ cloutreactor is an *experimental* BitClout miner and PPLNS pool.
 
 5) Install [CUDA Toolkit for WSL](https://docs.nvidia.com/cuda/wsl-user-guide/index.html#running-cuda)
 
-6) At a WSL command prompt, run cloutreactor with all GPUs (replace the given public key with your own):
+6) At a WSL command prompt, run cloutreactor with all GPUs (**replace the given public key with your own**):
 
 ```Shell
-sudo docker run --rm -t -i --gpus all --runtime nvidia cloutreactor/cuda:v0.0.2 --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
+sudo docker run --rm -t -i --gpus all --runtime nvidia cloutreactor/cuda:v0.0.3 --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
 ```
 
 ## Coming Soon
