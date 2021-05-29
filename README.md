@@ -31,10 +31,10 @@ cloutreactor is an *experimental* BitClout miner and PPLNS pool.
 
   ```Shell
 # Run in-process:
-  sudo docker run --rm --name cloutreactor --gpus all --runtime nvidia cloutreactor/cuda:v0.0.3 --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
+  sudo docker run --rm --name cloutreactor --gpus all --runtime nvidia cloutreactor/cuda:v0.0.4 --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
 
 # Or as a daemon:
-  sudo docker run --rm -d --name cloutreactor --gpus all --runtime nvidia cloutreactor/cuda:v0.0.3 --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
+  sudo docker run --rm -d --name cloutreactor --gpus all --runtime nvidia cloutreactor/cuda:v0.0.4 --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
   sudo docker logs -f cloutreactor
   ```
 
@@ -82,7 +82,7 @@ cloutreactor is an *experimental* BitClout miner and PPLNS pool.
 6) At a WSL command prompt, run cloutreactor with all GPUs (**replace the given public key with your own**):
 
 ```Shell
-sudo docker run --rm -t -i --gpus all --runtime nvidia cloutreactor/cuda:v0.0.3 --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
+sudo docker run --rm -t -i --gpus all --runtime nvidia cloutreactor/cuda:v0.0.4 --public-key="BC1YLhL2beeonivCELUydf1Dt4LFPxuNbSrz5GRmzKxdCxDDutiuFp9"
 ```
 
 ## Coming Soon
